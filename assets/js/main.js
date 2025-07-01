@@ -256,6 +256,7 @@ window.addEventListener("DOMContentLoaded", () => {
 window.addEventListener("resize", () => {
   languageMenu.classList.add("hidden");
 });
+    
 
 
 // Mostrar/ocultar menú
