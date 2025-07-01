@@ -252,6 +252,12 @@ window.addEventListener("DOMContentLoaded", () => {
   languageMenu.classList.add("hidden");
 });
 
+// Cerrar el menú si se redimensiona la ventana
+window.addEventListener("resize", () => {
+  languageMenu.classList.add("hidden");
+});
+
+
 // Mostrar/ocultar menú
 languageToggle.addEventListener("click", (e) => {
   e.stopPropagation(); // No se cierra al hacer click dentro
