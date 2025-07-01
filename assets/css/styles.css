@@ -5,7 +5,7 @@
 :root {
   --header-height: 3rem;
 
-  /*========== Colors ==========/
+  /*========== Colors ==========*/
 /* Change favorite color */
 --hue-color: 210;
 /* Blue Baby 210 - Green 142 - Purple 250 - Pink 340 */
@@ -1098,7 +1098,12 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
-  /*CSS Logo de Idioma*/
+  
+
+
+
+}
+/*CSS Logo de Idioma*/
 
 
 .language-selector {
@@ -1148,15 +1153,26 @@ img {
   }
 
   #language-menu {
-    top: 36px;
+    /*top: 36px;*/
     width: 100px;
     font-size: 0.9rem;
+    top: auto;
+    bottom: 40px;
   }
 
   #language-menu li {
     padding: 8px;
+    
   }
 }
 
-
+#language-menu.hidden {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  transform: translateY(-100%) !important;
+  pointer-events: none !important;
+  max-height: 0 !important;
+  transition: none !important;
+  animation: none !important;
 }
