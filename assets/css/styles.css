@@ -779,7 +779,9 @@ img {
 }
 
 .footer__title {
-  font-size: var(--h1-font-size);
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
   margin-bottom: var(--mb-0-25);
 }
 
