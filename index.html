@@ -22,53 +22,58 @@
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            
+
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
                         <a href="#home" class="nav__link active-link">
-                            <i   class="uil uil-estate nav__icon"></i><p data-i18n="home">Home</p>
+                            <i class="uil uil-estate nav__icon"></i>
+                            <p data-i18n="home">Home</p>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#about" class="nav__link">
-                            <i    class="uil uil-user nav__icon"></i><p data-i18n="sobre">Sobre mí</p> 
+                            <i class="uil uil-user nav__icon"></i>
+                            <p data-i18n="sobre">Sobre mí</p>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
-                            <i   class="uil uil-file-alt nav__icon"></i> <p data-i18n="skills">Habilidades</p>
+                            <i class="uil uil-file-alt nav__icon"></i>
+                            <p data-i18n="skills">Habilidades</p>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#portfolio" class="nav__link">
-                            <i  class="uil uil-scenery nav__icon"></i> <p data-i18n="portfolio">Portafolio</p> 
+                            <i class="uil uil-scenery nav__icon"></i>
+                            <p data-i18n="portfolio">Portafolio</p>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                            <i data-i18n="contac" class="uil uil-estate nav__icon"></i> <p data-i18n="contac">Contáctame</p> 
+                            <i data-i18n="contac" class="uil uil-estate nav__icon"></i>
+                            <p data-i18n="contac">Contáctame</p>
                         </a>
                     </li>
                 </ul>
                 <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
-            
+
             <div class="nav__btns">
                 <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    <div class="nav__toggle" id="nav-toggle">
+                <div class="nav__toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
                 <div class="language-selector">
                     <i class="uil uil-globe " id="language-toggle"></i>
-                        <ul id="language-menu" class="hidden">
-                            <li data-lang="en">English</li>
-                            <li data-lang="es">Español</li>
-                        </ul>
+                    <ul id="language-menu" class="hidden">
+                        <li data-lang="en">English</li>
+                        <li data-lang="es">Español</li>
+                    </ul>
                 </div>
-                </div>
+            </div>
 
-            
+
         </nav>
     </header>
     <!--==================== MAIN ====================-->
@@ -91,25 +96,28 @@
                     <div class="home__img">
                         <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                            <!-- Máscara con forma decorativa -->
                             <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
-            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
-            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
-            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <path fill="white" d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
                             </mask>
+
+                            <!-- Imagen dentro de la máscara -->
                             <g mask="url(#mask0)">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
-            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
-            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
-            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                                <image class="home__blob-img" x="12" y="18" xlink:href="assets/img/perfil.png" />
+                                <image class="home__blob-img" x="15" y="10" width="170" height="170"
+                                    xlink:href="assets/img/img.png" preserveAspectRatio="xMidYMid meet" />
                             </g>
                         </svg>
                     </div>
+
                     <div class="home__data">
                         <h1 data-i18n="title" class="home__title">Hola, soy Estefanía</h1>
                         <h3 data-i18n="description" class="home__subtitle">Desarolladora Back-End</h3>
-                        <p data-i18n="about"class="home__description">Estudiante de Ingeniería en Software en busca de desafíos
+                        <p data-i18n="about" class="home__description">Estudiante de Ingeniería en Software en busca de
+                            desafíos
                         </p>
                         <a data-i18n="contac" href="#contact" class="button button--flex">
                             Contáctame <i class="uil uil-message button__icon"></i>
@@ -117,7 +125,7 @@
                     </div>
                 </div>
                 <div class="home_scroll">
-                    <a   href="#about" class="home__scroll-button button--flex">
+                    <a href="#about" class="home__scroll-button button--flex">
                         <i class="uil uil-mouse-alt home__scroll-mouse"></i>
                         <span data-i18n="slide" class="home__scroll-name">Desliza</span>
                         <i class="uil uil-arrow-down homw__scroll-arrow"></i>
@@ -127,15 +135,16 @@
         </section>
         <!--==================== ABOUT ====================-->
         <section class="about section" id="about">
-            <h2  data-i18n="sobre" class="section__title">Sobre mí</h2>
-            <span data-i18n="profile"  class="section__subtitle">Mi perfil</span>
+            <h2 data-i18n="sobre" class="section__title">Sobre mí</h2>
+            <span data-i18n="profile" class="section__subtitle">Mi perfil</span>
             <div class="about__container container grid">
                 <img src="assets/img/about.jpeg" alt="" class="about__img">
                 <div class="about__data">
                     <p data-i18n="des" class="about__description">
-                        Amante del código, aficionada al backend y detective aficionada de vulnerabilidades. Explorando constantemente el mundo tecnológico y siempre lista para un nuevo desafío. 💻 </p>
+                        Amante del código, aficionada al backend y detective aficionada de vulnerabilidades. Explorando
+                        constantemente el mundo tecnológico y siempre lista para un nuevo desafío. 💻 </p>
                     <div class="about__info">
-                        
+
                         <div>
                             <span class="about__info-title">10+</span>
                             <span data-i18n="git" class="about__info-name">Repositorios <br>en Github</span>
@@ -146,7 +155,8 @@
                         </div>
                     </div>
                     <div class="about__buttons">
-                        <a data-i18n="cv" download="" href="assets/pdf/Estefania_Mora_CV.pdf" class="button button--flex">
+                        <a data-i18n="cv" download="" href="assets/pdf/Estefania_Mora_CV.pdf"
+                            class="button button--flex">
                             Échale un vistazo a mi CV <i class="uil uil-download-alt button__icon"></i>
                         </a>
                     </div>
@@ -196,22 +206,22 @@
                         <div class="skills__header">
                             <i class="uil uil-brackets-curly skills__icon"></i>
                             <div>
-                                <h1 data-i18n="ia"  class="skills__title">Inteligencia Artificial</h1>
-                                <span data-i18n="m1"  class="skills__subtitle">Más de 1 año</span>
+                                <h1 data-i18n="ia" class="skills__title">Inteligencia Artificial</h1>
+                                <span data-i18n="m1" class="skills__subtitle">Más de 1 año</span>
                             </div>
                             <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 data-i18n="pv"  class="skills__name">Modelos Predictivos</h3>
+                                    <h3 data-i18n="pv" class="skills__name">Modelos Predictivos</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 data-i18n="dp"  class="skills__name">Preprocesamiento  de datos</h3>
+                                    <h3 data-i18n="dp" class="skills__name">Preprocesamiento de datos</h3>
                                 </div>
                             </div>
                         </div>
@@ -228,7 +238,7 @@
                             <i class="uil uil-brackets-curly skills__icon"></i>
                             <div>
                                 <h1 data-i18n="db" class="skills__title">Bases de Datos</h1>
-                                <span data-i18n="m2"  class="skills__subtitle">Más de 2 años</span>
+                                <span data-i18n="m2" class="skills__subtitle">Más de 2 años</span>
                             </div>
                             <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
@@ -313,7 +323,7 @@
                             </div>
                         </div>
                         <!--===============================QUALIFICATION 3 ===========================-->
-                        
+
                     </div>
                     <!--===============================QUALIFICATION CONTENT 2 ===========================-->
                     <div class="qualification__content" data-content id="work">
@@ -345,7 +355,7 @@
                 <div class="swiper-wrapper">
                     <!--======================== PORTFOLIO 1 =============-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img  src="assets/img/p1.png" alt="Page print" class="portfolio__img">
+                        <img src="assets/img/p1.png" alt="Page print" class="portfolio__img">
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Acroware</h3>
                             <p data-i18n="d1" class="portfolio__description">
@@ -397,7 +407,7 @@
                             <p data-i18n="d4" class="portfolio__description">
                                 API REST construida con Node.js
                             </p>
-                            <a  href="https://github.com/Yachitzu/WhatsApp-Api-Node"
+                            <a href="https://github.com/Yachitzu/WhatsApp-Api-Node"
                                 class="button button--flex button--small portfolio__button">
                                 <p data-i18n="ms">Ver más</p>
                                 <i class="uil uil-arrow-right button__icon"></i>
@@ -405,7 +415,7 @@
                         </div>
                     </div>
                     <!--======================== PORTFOLIO 5 =============-->
-                    
+
                 </div>
                 <!--============ Add Arrows =============-->
                 <div class="swiper-button-next">
@@ -438,7 +448,7 @@
                             <span class="contact__subtitle">Píllaro - Ecuador</span>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
@@ -453,18 +463,23 @@
                 </div>
                 <ul class="footer__links">
                     <li>
-                        <a href="#skills" class="footer__link"><p data-i18n="skills">Habilidades</p></a>
+                        <a href="#skills" class="footer__link">
+                            <p data-i18n="skills">Habilidades</p>
+                        </a>
                     </li>
                     <li>
-                        <a href="#portfolio" class="footer__link"><p data-i18n="portfolio">Portafolio</p></a>
+                        <a href="#portfolio" class="footer__link">
+                            <p data-i18n="portfolio">Portafolio</p>
+                        </a>
                     </li>
                     <li>
-                        <a href="#contact" class="footer__link"><p data-i18n="contac">Contáctame</p></a>
+                        <a href="#contact" class="footer__link">
+                            <p data-i18n="contac">Contáctame</p>
+                        </a>
                     </li>
                 </ul>
                 <div class="footer__socials">
-                    <a href="https://github.com/Yachitzu" target="_blank" class="footer__social"
-                        class="footer__social">
+                    <a href="https://github.com/Yachitzu" target="_blank" class="footer__social" class="footer__social">
                         <i class="uil uil-github-alt"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/yachitzu" target="_blank" class="footer__social"
